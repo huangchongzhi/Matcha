@@ -1,0 +1,27 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html { font-size: 10px; }
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #333;
+  background-color: #fff;
+}
+h3, h4, h5, h6 { margin: 0 0 15px 0; }
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
